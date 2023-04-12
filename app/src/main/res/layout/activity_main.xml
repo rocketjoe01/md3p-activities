@@ -1,0 +1,1727 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    app:layoutDescription="@xml/activity_main_scene"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteX="46dp"
+    tools:layout_editor_absoluteY="0dp">
+
+
+    <TextView
+        android:id="@+id/textView59"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="352dp"
+        android:layout_marginTop="1060dp"
+        android:text="@string/date"
+        android:textColor="#070707"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="VisualLintBounds" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName76"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="288dp"
+        android:layout_marginTop="1028dp"
+        android:autofillHints="Enter Text.."
+        android:ems="10"
+        android:hint="@string/spacing"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="LabelFor,DuplicateSpeakableTextCheck,TouchTargetSizeCheck,VisualLintBounds,VisualLintOverlap" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName75"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="24dp"
+        android:autofillHints="Enter Text.."
+        android:ems="10"
+        android:hint="@string/spacing"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="LabelFor,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView58"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="1060dp"
+        android:text="@string/signature_of_applicant"
+        android:textColor="#070707"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="VisualLintBounds" />
+
+    <CheckBox
+        android:id="@+id/checkBox14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="964dp"
+        android:text="@string/in_the_event_of_employment_i_understand_that_false_or_misleading_information_given_in_my_application_or_interview_s_may_result_in_discharge"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="VisualLintLongText,VisualLintBounds,VisualLintButtonSize" />
+
+    <CheckBox
+        android:id="@+id/checkBox13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="900dp"
+        android:text="@string/i_certify_that_all_answers_given_herein_are_true_and_complete_to_the_best_of_my_knowledge"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="VisualLintBounds,VisualLintButtonSize" />
+
+    <CheckBox
+        android:id="@+id/checkBox12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="932dp"
+        android:text="@string/i_authorize_investigation_of_all_statements_contained_in_this_application_for_employment_as_may_be_necessary_in_arriving_at_an_employment_decision"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="VisualLintLongText,VisualLintBounds,VisualLintButtonSize" />
+
+    <TextView
+        android:id="@+id/textView57"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="881dp"
+        android:text="@string/acknowledgement_and_authorization"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="VisualLintBounds" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName74"
+        android:layout_width="164dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="777dp"
+        android:autofillHints="Enter Text.."
+        android:ems="10"
+        android:hint="@string/spacing"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="#050505"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="LabelFor,TextContrastCheck,TouchTargetSizeCheck,VisualLintBounds" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName73"
+        android:layout_width="164dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="712dp"
+        android:layout_marginTop="805dp"
+        android:autofillHints="Enter Text.."
+        android:ems="10"
+        android:hint="@string/spacing"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="#050505"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="LabelFor,TouchTargetSizeCheck,VisualLintBounds" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName72"
+        android:layout_width="164dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="712dp"
+        android:layout_marginTop="777dp"
+        android:autofillHints="Enter Text.."
+        android:ems="10"
+        android:hint="@string/spacing"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="#050505"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="LabelFor,VisualLintBounds,TextContrastCheck,TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName71"
+        android:layout_width="164dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="835dp"
+        android:autofillHints="Enter Text.."
+        android:ems="10"
+        android:hint="@string/spacing"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="#050505"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="LabelFor,TouchTargetSizeCheck,VisualLintBounds" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName70"
+        android:layout_width="164dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="805dp"
+        android:autofillHints="Enter Text.."
+        android:ems="10"
+        android:hint="@string/spacing"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="#050505"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="LabelFor,TouchTargetSizeCheck,VisualLintBounds" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName69"
+        android:layout_width="164dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="712dp"
+        android:layout_marginTop="835dp"
+        android:autofillHints="Enter Text.."
+        android:ems="10"
+        android:hint="@string/spacing"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="#050505"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="LabelFor,TouchTargetSizeCheck,VisualLintBounds" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName68"
+        android:layout_width="251dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="456dp"
+        android:layout_marginTop="835dp"
+        android:autofillHints="Enter Text.."
+        android:ems="10"
+        android:hint="@string/spacing"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="#050505"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="LabelFor,TouchTargetSizeCheck,VisualLintBounds" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName67"
+        android:layout_width="251dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="456dp"
+        android:layout_marginTop="805dp"
+        android:autofillHints="Enter Text.."
+        android:ems="10"
+        android:hint="@string/spacing"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="#050505"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="LabelFor,TouchTargetSizeCheck,VisualLintBounds" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName66"
+        android:layout_width="251dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="456dp"
+        android:layout_marginTop="777dp"
+        android:autofillHints="Enter Text.."
+        android:ems="10"
+        android:hint="@string/spacing"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="#050505"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="LabelFor,TextContrastCheck,TouchTargetSizeCheck,VisualLintBounds" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName65"
+        android:layout_width="251dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="835dp"
+        android:autofillHints="Enter Text.."
+        android:ems="10"
+        android:hint="@string/spacing"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="#050505"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="LabelFor,TouchTargetSizeCheck,VisualLintBounds" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName64"
+        android:layout_width="251dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="805dp"
+        android:autofillHints="Enter Text.."
+        android:ems="10"
+        android:hint="@string/spacing"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="#050505"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="LabelFor,TouchTargetSizeCheck,VisualLintBounds" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName63"
+        android:layout_width="251dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="777dp"
+        android:autofillHints="Enter Text.."
+        android:ems="10"
+        android:hint="@string/spacing"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="#050505"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="LabelFor,TextContrastCheck,TouchTargetSizeCheck,VisualLintBounds" />
+
+    <TextView
+        android:id="@+id/textView56"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="772dp"
+        android:layout_marginTop="762dp"
+        android:text="@string/phone"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="VisualLintBounds" />
+
+    <TextView
+        android:id="@+id/textView55"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="548dp"
+        android:layout_marginTop="762dp"
+        android:text="@string/company"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="VisualLintBounds" />
+
+    <TextView
+        android:id="@+id/textView54"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="352dp"
+        android:layout_marginTop="762dp"
+        android:text="@string/title"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="VisualLintBounds" />
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="762dp"
+        android:text="@string/name"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="VisualLintBounds" />
+
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="738dp"
+        android:text="@string/references"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck,VisualLintBounds" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName62"
+        android:layout_width="92dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="708dp"
+        android:layout_marginTop="584dp"
+        android:autofillHints="Enter Text.."
+        android:ems="10"
+        android:hint="@string/spacing"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="#050505"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="LabelFor,TouchTargetSizeCheck,VisualLintBounds" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName61"
+        android:layout_width="224dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="424dp"
+        android:layout_marginTop="584dp"
+        android:autofillHints="Enter Text.."
+        android:ems="10"
+        android:hint="@string/spacing"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="#050505"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="LabelFor,TouchTargetSizeCheck,VisualLintBounds" />
+
+    <TextView
+        android:id="@+id/textView51"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="676dp"
+        android:layout_marginTop="593dp"
+        android:text="@string/zip"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="VisualLintBounds" />
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="392dp"
+        android:layout_marginTop="593dp"
+        android:text="@string/state"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="VisualLintBounds" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName60"
+        android:layout_width="106dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="772dp"
+        android:layout_marginTop="532dp"
+        android:autofillHints="Enter Text.."
+        android:ems="10"
+        android:hint="@string/spacing"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="#050505"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="LabelFor,VisualLintBounds,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="456dp"
+        android:layout_marginTop="545dp"
+        android:text="@string/pay_rate"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="VisualLintBounds" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName59"
+        android:layout_width="92dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="528dp"
+        android:layout_marginTop="532dp"
+        android:autofillHints="Enter Text.."
+        android:ems="10"
+        android:hint="@string/spacing"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="#050505"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="LabelFor,TouchTargetSizeCheck,VisualLintBounds" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName58"
+        android:layout_width="106dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="772dp"
+        android:layout_marginTop="513dp"
+        android:autofillHints="Enter Text.."
+        android:ems="10"
+        android:hint="@string/spacing"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="#050505"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="LabelFor,TextContrastCheck,TouchTargetSizeCheck,VisualLintBounds" />
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="670dp"
+        android:layout_marginTop="524dp"
+        android:text="@string/dates_employed"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="VisualLintBounds" />
+
+    <CheckBox
+        android:id="@+id/checkBox10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="694dp"
+        android:text="@string/yes3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="DuplicateSpeakableTextCheck,VisualLintBounds" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName56"
+        android:layout_width="741dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="676dp"
+        android:autofillHints="Enter Text.."
+        android:ems="10"
+        android:hint="@string/spacing"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="#050505"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="LabelFor,TextContrastCheck,TouchTargetSizeCheck,VisualLintBounds,VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName55"
+        android:layout_width="697dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="652dp"
+        android:autofillHints="Enter Text.."
+        android:ems="10"
+        android:hint="@string/spacing"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="#050505"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="LabelFor,TouchTargetSizeCheck,VisualLintBounds,VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName54"
+        android:layout_width="753dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="628dp"
+        android:autofillHints="Enter Text.."
+        android:hint="@string/spacing"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="#050505"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="LabelFor,TouchTargetSizeCheck,VisualLintBounds,VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName53"
+        android:layout_width="797dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="607dp"
+        android:autofillHints="Enter Text.."
+        android:ems="10"
+        android:hint="@string/spacing"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="#050505"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="LabelFor,TouchTargetSizeCheck,VisualLintBounds,VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName52"
+        android:layout_width="251dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="580dp"
+        android:autofillHints="Enter Text.."
+        android:hint="@string/spacing"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="#050505"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="LabelFor,TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName51"
+        android:layout_width="802dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="558dp"
+        android:autofillHints="Enter Text.."
+        android:ems="10"
+        android:hint="@string/spacing"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="#050505"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="LabelFor,TouchTargetSizeCheck,VisualLintBounds,VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName50"
+        android:layout_width="251dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="534dp"
+        android:autofillHints="Enter Text.."
+        android:ems="10"
+        android:hint="@string/spacing"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="#050505"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="LabelFor,TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName49"
+        android:layout_width="251dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="512dp"
+        android:autofillHints="Enter Text.."
+        android:ems="10"
+        android:hint="@string/spacing"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="#050505"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="LabelFor,DuplicateSpeakableTextCheck,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="713dp"
+        android:text="@string/may_we_contact_them"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="VisualLintBounds" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="689dp"
+        android:text="@string/reason_for_leaving"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="665dp"
+        android:text="@string/supervisors_name_and_title"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="641dp"
+        android:text="@string/duties_performed"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="617dp"
+        android:text="@string/position"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="524dp"
+        android:text="@string/employer"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="569dp"
+        android:text="@string/address"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="545dp"
+        android:text="@string/work_phone"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="740dp"
+        android:layout_marginTop="545dp"
+        android:text="@string/to"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="VisualLintBounds" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="593dp"
+        android:text="@string/city"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="498dp"
+        android:text="@string/employment"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName48"
+        android:layout_width="251dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="456dp"
+        android:autofillHints="Enter Text.."
+        android:ems="10"
+        android:hint="@string/spacing"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="#050505"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="LabelFor,TouchTargetSizeCheck,VisualLintBounds" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName44"
+        android:layout_width="92dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="780dp"
+        android:layout_marginTop="385dp"
+        android:autofillHints="Enter Text.."
+        android:ems="10"
+        android:hint="@string/spacing"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="#050505"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="LabelFor,TouchTargetSizeCheck,VisualLintBounds" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName47"
+        android:layout_width="92dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="780dp"
+        android:layout_marginTop="431dp"
+        android:autofillHints="Enter Text.."
+        android:ems="10"
+        android:hint="@string/spacing"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="#050505"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="LabelFor,TextContrastCheck,TouchTargetSizeCheck,VisualLintBounds" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName46"
+        android:layout_width="92dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="780dp"
+        android:layout_marginTop="408dp"
+        android:autofillHints="Enter Text.."
+        android:ems="10"
+        android:hint="@string/spacing"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="#050505"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="LabelFor,TouchTargetSizeCheck,VisualLintBounds" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName40"
+        android:layout_width="129dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="504dp"
+        android:layout_marginTop="384dp"
+        android:autofillHints="Enter Text.."
+        android:ems="10"
+        android:hint="@string/spacing"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="#050505"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="LabelFor,TouchTargetSizeCheck,VisualLintBounds" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName39"
+        android:layout_width="129dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="504dp"
+        android:layout_marginTop="430dp"
+        android:autofillHints="Enter Text.."
+        android:ems="10"
+        android:hint="@string/spacing"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="#050505"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="LabelFor,TextContrastCheck,TouchTargetSizeCheck,VisualLintBounds" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName38"
+        android:layout_width="129dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="504dp"
+        android:layout_marginTop="407dp"
+        android:autofillHints="Enter Text.."
+        android:ems="10"
+        android:hint="@string/spacing"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="#050505"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="LabelFor,VisualLintBounds,TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName36"
+        android:layout_width="129dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="644dp"
+        android:layout_marginTop="407dp"
+        android:autofillHints="Enter Text.."
+        android:ems="10"
+        android:hint="@string/spacing"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="#050505"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="LabelFor,TouchTargetSizeCheck,VisualLintBounds" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName42"
+        android:layout_width="129dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="644dp"
+        android:layout_marginTop="430dp"
+        android:autofillHints="Enter Text.."
+        android:ems="10"
+        android:hint="@string/spacing"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="#050505"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="LabelFor,TextContrastCheck,TouchTargetSizeCheck,VisualLintBounds" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName43"
+        android:layout_width="129dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="644dp"
+        android:layout_marginTop="384dp"
+        android:autofillHints="Enter Text.."
+        android:ems="10"
+        android:hint="@string/spacing"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="#050505"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="LabelFor,TouchTargetSizeCheck,VisualLintBounds" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName34"
+        android:layout_width="218dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="430dp"
+        android:autofillHints="Enter Text.."
+        android:ems="10"
+        android:hint="@string/spacing"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="#050505"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="LabelFor,TextContrastCheck,TouchTargetSizeCheck,VisualLintBounds" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName33"
+        android:layout_width="218dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="407dp"
+        android:autofillHints="Enter Text.."
+        android:ems="10"
+        android:hint="@string/spacing"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="#050505"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="LabelFor,TouchTargetSizeCheck,VisualLintBounds" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName32"
+        android:layout_width="218dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="384dp"
+        android:autofillHints="Enter Text.."
+        android:ems="10"
+        android:hint="@string/spacing"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="#050505"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="LabelFor,TouchTargetSizeCheck,VisualLintBounds" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName31"
+        android:layout_width="251dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="430dp"
+        android:autofillHints="Enter Text.."
+        android:ems="10"
+        android:hint="@string/spacing"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="#050505"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="LabelFor,TextContrastCheck,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="372dp"
+        android:text="@string/school_name"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="664dp"
+        android:layout_marginTop="372dp"
+        android:text="@string/degree_received"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck,VisualLintBounds" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="532dp"
+        android:layout_marginTop="372dp"
+        android:text="@string/years_attended"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck,VisualLintBounds" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="792dp"
+        android:layout_marginTop="372dp"
+        android:text="@string/major"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="VisualLintBounds" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="220dp"
+        android:text="@string/home_phone"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="346dp"
+        android:text="@string/education"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+    <CheckBox
+        android:id="@+id/checkBox9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="616dp"
+        android:layout_marginTop="284dp"
+        android:text="@string/no"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="DuplicateSpeakableTextCheck,VisualLintBounds" />
+
+    <CheckBox
+        android:id="@+id/checkBox11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="224dp"
+        android:layout_marginTop="694dp"
+        android:text="@string/no1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="VisualLintBounds" />
+
+    <CheckBox
+        android:id="@+id/checkBox8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="544dp"
+        android:layout_marginTop="284dp"
+        android:text="@string/yes"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="VisualLintBounds" />
+
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="260dp"
+        android:layout_marginTop="264dp"
+        android:text="@string/yes1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="236dp"
+        android:text="@string/yes2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="LabelFor,TooManyViews"/>
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="304dp"
+        android:text="@string/if_selected_for_employment_are_you_willing_to_submit_to_a_pre_employment_drug_screening_test"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="VisualLintBounds" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="280dp"
+        android:text="@string/have_you_ever_been_convicted_to_a_felony"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="256dp"
+        android:text="@string/are_you_a_u_s_citizen"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName27"
+        android:layout_width="113dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="736dp"
+        android:layout_marginTop="204dp"
+        android:autofillHints="Enter Text.."
+        android:ems="10"
+        android:hint="@string/spacing"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="LabelFor,TouchTargetSizeCheck,VisualLintBounds" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName26"
+        android:layout_width="113dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="492dp"
+        android:layout_marginTop="204dp"
+        android:autofillHints="Enter Text.."
+        android:ems="10"
+        android:hint="@string/spacing"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="LabelFor,VisualLintBounds,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="608dp"
+        android:layout_marginTop="220dp"
+        android:text="@string/social_security_number"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="VisualLintBounds" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="160dp"
+        android:autofillHints="Enter Text.."
+        android:ems="10"
+        android:hint="@string/spacing"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="LabelFor,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="228dp"
+        android:layout_marginTop="220dp"
+        android:text="@string/cell_phone"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName18"
+        android:layout_width="113dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="288dp"
+        android:layout_marginTop="204dp"
+        android:autofillHints="Enter Text.."
+        android:hint="@string/spacing"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="352dp"
+        android:layout_marginTop="372dp"
+        android:text="@string/location"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="412dp"
+        android:layout_marginTop="220dp"
+        android:text="@string/email_address"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="VisualLintBounds" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="188dp"
+        android:text="@string/address1"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="212dp"
+        android:layout_marginTop="188dp"
+        android:text="@string/city1"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="VisualLintOverlap" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="388dp"
+        android:layout_marginTop="188dp"
+        android:text="@string/state2"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="VisualLintOverlap,VisualLintBounds" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="592dp"
+        android:layout_marginTop="188dp"
+        android:text="@string/zip1"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="VisualLintOverlap,VisualLintBounds" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="120dp"
+        android:autofillHints="Enter Text.."
+        android:hint="@string/spacing"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="388dp"
+        android:layout_marginTop="160dp"
+        android:autofillHints="Enter Text.."
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck,VisualLintBounds" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="592dp"
+        android:layout_marginTop="160dp"
+        android:autofillHints="Enter Text.."
+        android:ems="10"
+        android:hint="@string/spacing"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SmallSp,TouchTargetSizeCheck,VisualLintBounds" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="388dp"
+        android:layout_marginTop="120dp"
+        android:autofillHints="Enter Text.."
+        android:ems="10"
+        android:hint="@string/spacing"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="LabelFor,TouchTargetSizeCheck,VisualLintBounds" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="388dp"
+        android:layout_marginTop="148dp"
+        android:text="@string/middle"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="VisualLintBounds" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="212dp"
+        android:layout_marginTop="148dp"
+        android:text="@string/first_name"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="VisualLintOverlap" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/application_for_employment"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.46"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.005" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:text="@string/position_you_are_applying_for"
+        android:textColor="#070707"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.031" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/date_available_for_work"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="246dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="1028dp"
+        android:autofillHints="Enter Text.."
+        android:hint="@string/spacing"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck,VisualLintBounds" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="16dp"
+        android:autofillHints="Enter Text.."
+        android:ems="10"
+        android:hint="@string/spacing"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:ignore="LabelFor,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="36dp"
+        android:text="@string/desired_salary"
+        android:textColor="#000000"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="VisualLintBounds" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="24dp"
+        android:autofillHints="Enter Text.."
+        android:ems="10"
+        android:hint="@string/spacing"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView5"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="LabelFor,TouchTargetSizeCheck,VisualLintBounds" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="104dp"
+        android:text="@string/personal_information"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="212dp"
+        android:layout_marginTop="160dp"
+        android:autofillHints="Enter Text.."
+        android:ems="10"
+        android:hint="@string/spacing"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="212dp"
+        android:layout_marginTop="120dp"
+        android:autofillHints="Enter Text.."
+        android:ems="10"
+        android:hint="@string/spacing"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="LabelFor,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="148dp"
+        android:text="@string/last_name"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName25"
+        android:layout_width="113dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="204dp"
+        android:autofillHints="Enter Text.."
+        android:ems="10"
+        android:hint="@string/spacing"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="LabelFor,TouchTargetSizeCheck" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="236dp"
+        android:text="@string/no3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBox7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="328dp"
+        android:layout_marginTop="264dp"
+        android:text="@string/no4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName28"
+        android:layout_width="251dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="384dp"
+        android:autofillHints="Enter Text.."
+        android:ems="10"
+        android:hint="@string/spacing"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="#050505"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="LabelFor,TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName30"
+        android:layout_width="251dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="407dp"
+        android:autofillHints="Enter Text.."
+        android:ems="10"
+        android:hint="@string/spacing"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="#050505"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="LabelFor,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="464dp"
+        android:text="@string/other_training_certifications_or_licenses_held"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView60"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="1076dp"
+        android:text="@string/_2032_po_eqoogtekcr"
+        android:textColor="#0E0E0E"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="VisualLintBounds" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
